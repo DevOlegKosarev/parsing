@@ -135,8 +135,8 @@ This is an example of how to list things you need to use the software and how to
     $config->logger = true;
     $config->basePath = '<nameVendor>';
 
-    $FoxWay = new <vendorClassName>($config);
-    $FoxWay->allProducts();
+    $vendorClassName = new <vendorClassName>($config);
+    $vendorClassName->allProducts();
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
