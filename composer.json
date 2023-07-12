@@ -1,0 +1,21 @@
+{
+    "name": "devolegkosarev/parsing",
+    "type": "library",
+    "version": "0.1.0",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devolegkosarev\\Parsing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleg Kosarev",
+            "email": "dev.oleg.kosarev@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
