@@ -125,28 +125,40 @@ class VendorsController extends BaseController
      * Loads and returns the vendor config object from the vendor name using constants and string interpolation
      * @param string $vendor The name of the vendor
      * @return object The vendor config object
+     * @throws LogicException if the vendor config class does not exist
+     * @throws LogicException if failed to initialize the vendor config
      */
     protected function loadVendorConfig(string $vendor)
     {
         // Use constants and string interpolation to build the vendor config class name
-        $vendorConfigClass = self::BASE_VENDOR_CONFIG_NAMESPACE . "{$vendor}\\src\\Config\\" . ucfirst($vendor) . "Config";
-        // Create a new stdClass object as the default vendor config
-        $vendorConfig = new stdClass;
+        $vendorConfigClass = self::BASE_VENDOR_CONFIG_NAMESPACE . ucfirst($vendor) . "\\Config\\" . ucfirst($vendor) . "Config";
 
         // Check if the vendor config class exists
-        if (class_exists($vendorConfigClass)) {
-            // Instantiate the vendor config object from the class name
-            $vendorConfig = new $vendorConfigClass();
-            // Use instanceof operator to check the type of the object
-            if ($vendorConfig instanceof stdClass) {
-                // Set the base path property of the vendor config object using constants and string interpolation
-                $vendorConfig->basePath = WRITEPATH . "CSV" . DIRECTORY_SEPARATOR . $vendor;
-                // Create the vendor directory if it does not exist
-                $this->createVendorDirectory($vendorConfig->basePath);
-            }
+        if (!class_exists($vendorConfigClass)) {
+            // Throw a custom exception if the vendor config does not exist 
+            throw new LogicException('Vendor Config does not exist');
         }
 
-        return $vendorConfig;
+        // Instantiate the vendor config object from the class name
+        try {
+            $vendorConfig = new $vendorConfigClass();
+            // Use instanceof operator to check the type of the object
+            if ($vendorConfig instanceof BaseConfig) {
+                // Set the base path property of the vendor config object using constants and string interpolation
+                $vendorConfig->basePath = WRITEPATH . "CSV" . DIRECTORY_SEPARATOR . $vendor;
+
+                // Create the vendor directory if it does not exist
+                if (!is_dir($vendorConfig->basePath)) {
+                    $this->createVendorDirectory($vendorConfig->basePath);
+                }
+                return $vendorConfig;
+            }
+        } catch (\Throwable $e) {
+            throw new LogicException('Failed to initialize vendor config: Class not found');
+        }
+
+
+
     }
 
     /**
