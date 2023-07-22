@@ -24,40 +24,35 @@
 <polygon fill="none" stroke="black" points="24,-60 24,-1377 794.75,-1377 794.75,-60 24,-60"/>
 <text text-anchor="middle" x="409.38" y="-1362.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Parsing</text>
 </g>
+<g id="clust4" class="cluster">
+<title>cluster_\Devolegkosarev\Parsing\Config</title>
+<polygon fill="none" stroke="black" points="616.38,-762 616.38,-835 702.38,-835 702.38,-762 616.38,-762"/>
+<text text-anchor="middle" x="659.38" y="-820.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Config</text>
+</g>
 <g id="clust6" class="cluster">
 <title>cluster_\Devolegkosarev\Parsing\Controllers</title>
 <polygon fill="none" stroke="black" points="532,-843 532,-1348 786.75,-1348 786.75,-843 532,-843"/>
 <text text-anchor="middle" x="659.38" y="-1333.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Controllers</text>
 </g>
-<g id="clust7" class="cluster">
-<title>cluster_\Devolegkosarev\Parsing\Interfaces</title>
-<polygon fill="none" stroke="black" points="32,-735 32,-1024 226,-1024 226,-735 32,-735"/>
-<text text-anchor="middle" x="129" y="-1009.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Interfaces</text>
-</g>
 <g id="clust8" class="cluster">
 <title>cluster_\Devolegkosarev\Parsing\Libraries</title>
-<polygon fill="none" stroke="black" points="548.88,-600 548.88,-835 769.88,-835 769.88,-600 548.88,-600"/>
-<text text-anchor="middle" x="659.38" y="-820.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Libraries</text>
-</g>
-<g id="clust9" class="cluster">
-<title>cluster_\Devolegkosarev\Parsing\Models</title>
-<polygon fill="none" stroke="black" points="552.25,-195 552.25,-592 766.5,-592 766.5,-195 552.25,-195"/>
-<text text-anchor="middle" x="659.38" y="-577.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Models</text>
+<polygon fill="none" stroke="black" points="548.88,-519 548.88,-754 769.88,-754 769.88,-519 548.88,-519"/>
+<text text-anchor="middle" x="659.38" y="-739.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Libraries</text>
 </g>
 <g id="clust10" class="cluster">
 <title>cluster_\Devolegkosarev\Parsing\Services</title>
-<polygon fill="none" stroke="black" points="282,-554 282,-843 476,-843 476,-554 282,-554"/>
-<text text-anchor="middle" x="379" y="-828.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Services</text>
+<polygon fill="none" stroke="black" points="282,-743 282,-1032 476,-1032 476,-743 282,-743"/>
+<text text-anchor="middle" x="379" y="-1017.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Services</text>
 </g>
-<g id="clust4" class="cluster">
-<title>cluster_\Devolegkosarev\Parsing\Config</title>
-<polygon fill="none" stroke="black" points="616.38,-114 616.38,-187 702.38,-187 702.38,-114 616.38,-114"/>
-<text text-anchor="middle" x="659.38" y="-172.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Config</text>
+<g id="clust9" class="cluster">
+<title>cluster_\Devolegkosarev\Parsing\Models</title>
+<polygon fill="none" stroke="black" points="552.25,-114 552.25,-511 766.5,-511 766.5,-114 552.25,-114"/>
+<text text-anchor="middle" x="659.38" y="-496.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Models</text>
 </g>
-<g id="clust11" class="cluster">
-<title>cluster_Global\CodeIgniter</title>
-<polygon fill="none" stroke="black" points="336.4,-1532 336.4,-1605 421.6,-1605 421.6,-1532 336.4,-1532"/>
-<text text-anchor="middle" x="379" y="-1590.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">CodeIgniter</text>
+<g id="clust7" class="cluster">
+<title>cluster_\Devolegkosarev\Parsing\Interfaces</title>
+<polygon fill="none" stroke="black" points="32,-924 32,-1213 226,-1213 226,-924 32,-924"/>
+<text text-anchor="middle" x="129" y="-1198.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Interfaces</text>
 </g>
 <g id="clust12" class="cluster">
 <title>cluster_Global\App</title>
@@ -69,11 +64,16 @@
 <polygon fill="none" stroke="black" points="304.97,-1422 304.97,-1495 453.03,-1495 453.03,-1422 304.97,-1422"/>
 <text text-anchor="middle" x="379" y="-1480.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Controllers</text>
 </g>
+<g id="clust11" class="cluster">
+<title>cluster_Global\CodeIgniter</title>
+<polygon fill="none" stroke="black" points="336.4,-1532 336.4,-1605 421.6,-1605 421.6,-1532 336.4,-1532"/>
+<text text-anchor="middle" x="379" y="-1590.55" font-family="Times New Roman,serif" font-size="11.00" fill="gray">CodeIgniter</text>
+</g>
 <!-- \\Devolegkosarev\\Parsing\\Config\\Database -->
 <g id="node1" class="node">
 <title>\\Devolegkosarev\\Parsing\\Config\\Database</title>
-<polygon fill="none" stroke="black" points="694.38,-158 624.38,-158 624.38,-122 694.38,-122 694.38,-158"/>
-<text text-anchor="middle" x="659.38" y="-135.93" font-family="Courier,monospace" font-size="11.00">Database</text>
+<polygon fill="none" stroke="black" points="694.38,-806 624.38,-806 624.38,-770 694.38,-770 694.38,-806"/>
+<text text-anchor="middle" x="659.38" y="-783.92" font-family="Courier,monospace" font-size="11.00">Database</text>
 </g>
 <!-- Config -->
 <g id="node39" class="node">
@@ -84,8 +84,8 @@
 <!-- \\Devolegkosarev\\Parsing\\Config\\Database&#45;&gt;Config -->
 <g id="edge5" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Config\\Database&#45;&gt;Config</title>
-<path fill="none" stroke="black" d="M623.92,-139.99C597.31,-138.62 560.37,-133.66 532,-118 499.49,-100.06 506.51,-77.17 476,-56 459.5,-44.55 439.06,-35.85 421.29,-29.68"/>
-<polygon fill="none" stroke="black" points="422.77,-26.15 412.18,-26.34 420.58,-32.8 422.77,-26.15"/>
+<path fill="none" stroke="black" d="M624.08,-790.06C594.94,-789.76 554.38,-784.11 532,-758 430.15,-639.18 569.05,-181.83 476,-56 463.92,-39.66 443.71,-30.34 424.94,-25.03"/>
+<polygon fill="none" stroke="black" points="425.97,-21.43 415.42,-22.4 424.28,-28.22 425.97,-21.43"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\CategoryTranslateController -->
 <g id="node2" class="node">
@@ -96,101 +96,101 @@
 <!-- \\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="node34" class="node">
 <title>\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<polygon fill="none" stroke="black" points="447.75,-1103 310.25,-1103 310.25,-1067 447.75,-1067 447.75,-1103"/>
-<text text-anchor="start" x="345.25" y="-1087.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
-<text text-anchor="start" x="318.25" y="-1074.55" font-family="Courier,monospace" font-size="11.00">AbstractTranslater</text>
+<polygon fill="none" stroke="black" points="447.75,-1076 310.25,-1076 310.25,-1040 447.75,-1040 447.75,-1076"/>
+<text text-anchor="start" x="345.25" y="-1060.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
+<text text-anchor="start" x="318.25" y="-1047.55" font-family="Courier,monospace" font-size="11.00">AbstractTranslater</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\CategoryTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="edge6" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\CategoryTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<path fill="none" stroke="black" d="M563.35,-1049.43C529.1,-1056.08 490.87,-1063.49 458.21,-1069.83"/>
-<polygon fill="none" stroke="black" points="457.97,-1066.5 448.82,-1071.84 459.3,-1073.38 457.97,-1066.5"/>
+<path fill="none" stroke="black" d="M559.84,-1040.56C526.68,-1043.77 490.15,-1047.32 458.72,-1050.36"/>
+<polygon fill="none" stroke="black" points="458.45,-1046.97 448.83,-1051.42 459.12,-1053.94 458.45,-1046.97"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesHandlerController -->
 <g id="node3" class="node">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesHandlerController</title>
-<polygon fill="none" stroke="black" points="751.75,-887 567,-887 567,-851 751.75,-851 751.75,-887"/>
-<text text-anchor="middle" x="659.38" y="-864.92" font-family="Courier,monospace" font-size="11.00">FeaturesHandlerController</text>
+<polygon fill="none" stroke="black" points="751.75,-1211 567,-1211 567,-1175 751.75,-1175 751.75,-1211"/>
+<text text-anchor="middle" x="659.38" y="-1188.92" font-family="Courier,monospace" font-size="11.00">FeaturesHandlerController</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractFeaturesHandler -->
 <g id="node32" class="node">
 <title>\\Devolegkosarev\\Parsing\\AbstractFeaturesHandler</title>
-<polygon fill="none" stroke="black" points="464.62,-887 293.38,-887 293.38,-851 464.62,-851 464.62,-887"/>
-<text text-anchor="start" x="345.25" y="-871.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
-<text text-anchor="start" x="301.38" y="-858.55" font-family="Courier,monospace" font-size="11.00">AbstractFeaturesHandler</text>
+<polygon fill="none" stroke="black" points="464.62,-1157 293.38,-1157 293.38,-1121 464.62,-1121 464.62,-1157"/>
+<text text-anchor="start" x="345.25" y="-1141.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
+<text text-anchor="start" x="301.38" y="-1128.55" font-family="Courier,monospace" font-size="11.00">AbstractFeaturesHandler</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesHandlerController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractFeaturesHandler -->
 <g id="edge7" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesHandlerController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractFeaturesHandler</title>
-<path fill="none" stroke="black" d="M566.84,-869C537.62,-869 505.22,-869 475.72,-869"/>
-<polygon fill="none" stroke="black" points="475.99,-865.5 465.99,-869 475.99,-872.5 475.99,-865.5"/>
+<path fill="none" stroke="black" d="M566.84,-1175.24C537.62,-1169.58 505.22,-1163.29 475.72,-1157.57"/>
+<polygon fill="none" stroke="black" points="476.48,-1153.96 465.99,-1155.49 475.14,-1160.83 476.48,-1153.96"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesSuffixTranslateController -->
 <g id="node4" class="node">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesSuffixTranslateController</title>
-<polygon fill="none" stroke="black" points="778.75,-995 540,-995 540,-959 778.75,-959 778.75,-995"/>
-<text text-anchor="middle" x="659.38" y="-972.92" font-family="Courier,monospace" font-size="11.00">FeaturesSuffixTranslateController</text>
+<polygon fill="none" stroke="black" points="778.75,-941 540,-941 540,-905 778.75,-905 778.75,-941"/>
+<text text-anchor="middle" x="659.38" y="-918.92" font-family="Courier,monospace" font-size="11.00">FeaturesSuffixTranslateController</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesSuffixTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="edge8" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesSuffixTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<path fill="none" stroke="black" d="M558.97,-995.47C549.76,-998.01 540.64,-1000.85 532,-1004 491.19,-1018.9 447.75,-1042.97 417.81,-1061.01"/>
-<polygon fill="none" stroke="black" points="416.29,-1058.44 409.58,-1066.64 419.94,-1064.42 416.29,-1058.44"/>
+<path fill="none" stroke="black" d="M546.98,-941.37C541.74,-943.9 536.72,-946.76 532,-950 494.41,-975.83 513.4,-1009.89 476,-1036 470.48,-1039.85 464.39,-1043.04 458.03,-1045.68"/>
+<polygon fill="none" stroke="black" points="457.06,-1042.67 448.86,-1049.39 459.45,-1049.25 457.06,-1042.67"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesTitleTranslateController -->
 <g id="node5" class="node">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesTitleTranslateController</title>
-<polygon fill="none" stroke="black" points="775.38,-1265 543.38,-1265 543.38,-1229 775.38,-1229 775.38,-1265"/>
-<text text-anchor="middle" x="659.38" y="-1242.92" font-family="Courier,monospace" font-size="11.00">FeaturesTitleTranslateController</text>
+<polygon fill="none" stroke="black" points="775.38,-887 543.38,-887 543.38,-851 775.38,-851 775.38,-887"/>
+<text text-anchor="middle" x="659.38" y="-864.92" font-family="Courier,monospace" font-size="11.00">FeaturesTitleTranslateController</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesTitleTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="edge9" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesTitleTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<path fill="none" stroke="black" d="M552.14,-1228.6C545.19,-1226.09 538.41,-1223.24 532,-1220 478.46,-1192.91 428.99,-1142.26 401.8,-1111.29"/>
-<polygon fill="none" stroke="black" points="403.93,-1109.39 394.74,-1104.11 398.63,-1113.97 403.93,-1109.39"/>
+<path fill="none" stroke="black" d="M544.1,-887.46C539.83,-889.99 535.77,-892.82 532,-896 480.76,-939.19 526.92,-992.43 476,-1036 470.59,-1040.63 464.4,-1044.34 457.82,-1047.3"/>
+<polygon fill="none" stroke="black" points="457.02,-1044.24 448.96,-1051.12 459.55,-1050.77 457.02,-1044.24"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesValueTranslateController -->
 <g id="node6" class="node">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesValueTranslateController</title>
-<polygon fill="none" stroke="black" points="775.38,-1211 543.38,-1211 543.38,-1175 775.38,-1175 775.38,-1211"/>
-<text text-anchor="middle" x="659.38" y="-1188.92" font-family="Courier,monospace" font-size="11.00">FeaturesValueTranslateController</text>
+<polygon fill="none" stroke="black" points="775.38,-1157 543.38,-1157 543.38,-1121 775.38,-1121 775.38,-1157"/>
+<text text-anchor="middle" x="659.38" y="-1134.92" font-family="Courier,monospace" font-size="11.00">FeaturesValueTranslateController</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\FeaturesValueTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="edge10" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\FeaturesValueTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<path fill="none" stroke="black" d="M558.97,-1174.53C549.76,-1171.99 540.64,-1169.15 532,-1166 491.19,-1151.1 447.75,-1127.03 417.81,-1108.99"/>
-<polygon fill="none" stroke="black" points="419.94,-1105.58 409.58,-1103.36 416.29,-1111.56 419.94,-1105.58"/>
+<path fill="none" stroke="black" d="M565.21,-1120.54C553.96,-1117.89 542.69,-1115.03 532,-1112 500.08,-1102.96 465.16,-1090.73 436.84,-1080.19"/>
+<polygon fill="none" stroke="black" points="438.32,-1076.63 427.73,-1076.39 435.86,-1083.18 438.32,-1076.63"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\OptionsHandlerController -->
 <g id="node7" class="node">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\OptionsHandlerController</title>
-<polygon fill="none" stroke="black" points="748.38,-941 570.38,-941 570.38,-905 748.38,-905 748.38,-941"/>
-<text text-anchor="middle" x="659.38" y="-918.92" font-family="Courier,monospace" font-size="11.00">OptionsHandlerController</text>
+<polygon fill="none" stroke="black" points="748.38,-1265 570.38,-1265 570.38,-1229 748.38,-1229 748.38,-1265"/>
+<text text-anchor="middle" x="659.38" y="-1242.92" font-family="Courier,monospace" font-size="11.00">OptionsHandlerController</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractOptionsHandler -->
 <g id="node33" class="node">
 <title>\\Devolegkosarev\\Parsing\\AbstractOptionsHandler</title>
-<polygon fill="none" stroke="black" points="461.25,-941 296.75,-941 296.75,-905 461.25,-905 461.25,-941"/>
-<text text-anchor="start" x="345.25" y="-925.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
-<text text-anchor="start" x="304.75" y="-912.55" font-family="Courier,monospace" font-size="11.00">AbstractOptionsHandler</text>
+<polygon fill="none" stroke="black" points="461.25,-1238 296.75,-1238 296.75,-1202 461.25,-1202 461.25,-1238"/>
+<text text-anchor="start" x="345.25" y="-1222.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
+<text text-anchor="start" x="304.75" y="-1209.55" font-family="Courier,monospace" font-size="11.00">AbstractOptionsHandler</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\OptionsHandlerController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractOptionsHandler -->
 <g id="edge11" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\OptionsHandlerController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractOptionsHandler</title>
-<path fill="none" stroke="black" d="M569.91,-923C538.87,-923 503.92,-923 472.55,-923"/>
-<polygon fill="none" stroke="black" points="472.61,-919.5 462.61,-923 472.61,-926.5 472.61,-919.5"/>
+<path fill="none" stroke="black" d="M569.91,-1238.42C538.87,-1235.41 503.92,-1232.02 472.55,-1228.98"/>
+<polygon fill="none" stroke="black" points="472.9,-1225.4 462.61,-1227.92 472.23,-1232.36 472.9,-1225.4"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\OptionsTitleTranslateController -->
 <g id="node8" class="node">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\OptionsTitleTranslateController</title>
-<polygon fill="none" stroke="black" points="772,-1157 546.75,-1157 546.75,-1121 772,-1121 772,-1157"/>
-<text text-anchor="middle" x="659.38" y="-1134.92" font-family="Courier,monospace" font-size="11.00">OptionsTitleTranslateController</text>
+<polygon fill="none" stroke="black" points="772,-995 546.75,-995 546.75,-959 772,-959 772,-995"/>
+<text text-anchor="middle" x="659.38" y="-972.92" font-family="Courier,monospace" font-size="11.00">OptionsTitleTranslateController</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\OptionsTitleTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="edge12" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\OptionsTitleTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<path fill="none" stroke="black" d="M563.35,-1120.57C529.1,-1113.92 490.87,-1106.51 458.21,-1100.17"/>
-<polygon fill="none" stroke="black" points="459.3,-1096.62 448.82,-1098.16 457.97,-1103.5 459.3,-1096.62"/>
+<path fill="none" stroke="black" d="M557.86,-995.49C549.01,-998.01 540.28,-1000.84 532,-1004 505.22,-1014.23 502.7,-1025.57 476,-1036 470.34,-1038.21 464.4,-1040.23 458.36,-1042.07"/>
+<polygon fill="none" stroke="black" points="457.8,-1038.88 449.15,-1045 459.73,-1045.61 457.8,-1038.88"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\OptionsValueTranslateController -->
 <g id="node9" class="node">
@@ -201,8 +201,8 @@
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\OptionsValueTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater -->
 <g id="edge13" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Controllers\\OptionsValueTranslateController&#45;&gt;\\Devolegkosarev\\Parsing\\AbstractTranslater</title>
-<path fill="none" stroke="black" d="M546.35,-1085C517.14,-1085 486.27,-1085 459.15,-1085"/>
-<polygon fill="none" stroke="black" points="459.17,-1081.5 449.17,-1085 459.17,-1088.5 459.17,-1081.5"/>
+<path fill="none" stroke="black" d="M546.35,-1074.13C517.01,-1071.29 485.99,-1068.28 458.79,-1065.64"/>
+<polygon fill="none" stroke="black" points="459.46,-1062.09 449.17,-1064.61 458.79,-1069.06 459.46,-1062.09"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Controllers\\VendorsController -->
 <g id="node10" class="node">
@@ -225,62 +225,62 @@
 <!-- \\Devolegkosarev\\Parsing\\Interfaces\\FeaturesHandlerInterface -->
 <g id="node11" class="node">
 <title>\\Devolegkosarev\\Parsing\\Interfaces\\FeaturesHandlerInterface</title>
-<polygon fill="none" stroke="black" points="218,-887 40,-887 40,-851 218,-851 218,-887"/>
-<text text-anchor="middle" x="129" y="-864.92" font-family="Courier,monospace" font-size="11.00">FeaturesHandlerInterface</text>
+<polygon fill="none" stroke="black" points="218,-1130 40,-1130 40,-1094 218,-1094 218,-1130"/>
+<text text-anchor="middle" x="129" y="-1107.92" font-family="Courier,monospace" font-size="11.00">FeaturesHandlerInterface</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Interfaces\\OptionsHandlerInterface -->
 <g id="node12" class="node">
 <title>\\Devolegkosarev\\Parsing\\Interfaces\\OptionsHandlerInterface</title>
-<polygon fill="none" stroke="black" points="214.62,-941 43.38,-941 43.38,-905 214.62,-905 214.62,-941"/>
-<text text-anchor="middle" x="129" y="-918.92" font-family="Courier,monospace" font-size="11.00">OptionsHandlerInterface</text>
+<polygon fill="none" stroke="black" points="214.62,-1184 43.38,-1184 43.38,-1148 214.62,-1148 214.62,-1184"/>
+<text text-anchor="middle" x="129" y="-1161.92" font-family="Courier,monospace" font-size="11.00">OptionsHandlerInterface</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Interfaces\\TranslaterInterface -->
 <g id="node13" class="node">
 <title>\\Devolegkosarev\\Parsing\\Interfaces\\TranslaterInterface</title>
-<polygon fill="none" stroke="black" points="201.12,-995 56.88,-995 56.88,-959 201.12,-959 201.12,-995"/>
-<text text-anchor="middle" x="129" y="-972.92" font-family="Courier,monospace" font-size="11.00">TranslaterInterface</text>
+<polygon fill="none" stroke="black" points="201.12,-1076 56.88,-1076 56.88,-1040 201.12,-1040 201.12,-1076"/>
+<text text-anchor="middle" x="129" y="-1053.92" font-family="Courier,monospace" font-size="11.00">TranslaterInterface</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Interfaces\\TranslatorInterface -->
 <g id="node14" class="node">
 <title>\\Devolegkosarev\\Parsing\\Interfaces\\TranslatorInterface</title>
-<polygon fill="none" stroke="black" points="201.12,-833 56.88,-833 56.88,-797 201.12,-797 201.12,-833"/>
-<text text-anchor="middle" x="129" y="-810.92" font-family="Courier,monospace" font-size="11.00">TranslatorInterface</text>
+<polygon fill="none" stroke="black" points="201.12,-1022 56.88,-1022 56.88,-986 201.12,-986 201.12,-1022"/>
+<text text-anchor="middle" x="129" y="-999.92" font-family="Courier,monospace" font-size="11.00">TranslatorInterface</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Interfaces\\VendorsInterface -->
 <g id="node15" class="node">
 <title>\\Devolegkosarev\\Parsing\\Interfaces\\VendorsInterface</title>
-<polygon fill="none" stroke="black" points="191,-779 67,-779 67,-743 191,-743 191,-779"/>
-<text text-anchor="middle" x="129" y="-756.92" font-family="Courier,monospace" font-size="11.00">VendorsInterface</text>
+<polygon fill="none" stroke="black" points="191,-968 67,-968 67,-932 191,-932 191,-968"/>
+<text text-anchor="middle" x="129" y="-945.92" font-family="Courier,monospace" font-size="11.00">VendorsInterface</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Libraries\\DiffCsvLibraries -->
 <g id="node16" class="node">
 <title>\\Devolegkosarev\\Parsing\\Libraries\\DiffCsvLibraries</title>
-<polygon fill="none" stroke="black" points="721.38,-806 597.38,-806 597.38,-770 721.38,-770 721.38,-806"/>
-<text text-anchor="middle" x="659.38" y="-783.92" font-family="Courier,monospace" font-size="11.00">DiffCsvLibraries</text>
+<polygon fill="none" stroke="black" points="721.38,-725 597.38,-725 597.38,-689 721.38,-689 721.38,-725"/>
+<text text-anchor="middle" x="659.38" y="-702.92" font-family="Courier,monospace" font-size="11.00">DiffCsvLibraries</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Libraries\\FormatFeaturesValueLibraries -->
 <g id="node17" class="node">
 <title>\\Devolegkosarev\\Parsing\\Libraries\\FormatFeaturesValueLibraries</title>
-<polygon fill="none" stroke="black" points="761.88,-752 556.88,-752 556.88,-716 761.88,-716 761.88,-752"/>
-<text text-anchor="middle" x="659.38" y="-729.92" font-family="Courier,monospace" font-size="11.00">FormatFeaturesValueLibraries</text>
+<polygon fill="none" stroke="black" points="761.88,-671 556.88,-671 556.88,-635 761.88,-635 761.88,-671"/>
+<text text-anchor="middle" x="659.38" y="-648.92" font-family="Courier,monospace" font-size="11.00">FormatFeaturesValueLibraries</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Libraries\\MarkupCalculatorCoreLibrary -->
 <g id="node18" class="node">
 <title>\\Devolegkosarev\\Parsing\\Libraries\\MarkupCalculatorCoreLibrary</title>
-<polygon fill="none" stroke="black" points="758.5,-698 560.25,-698 560.25,-662 758.5,-662 758.5,-698"/>
-<text text-anchor="middle" x="659.38" y="-675.92" font-family="Courier,monospace" font-size="11.00">MarkupCalculatorCoreLibrary</text>
+<polygon fill="none" stroke="black" points="758.5,-617 560.25,-617 560.25,-581 758.5,-581 758.5,-617"/>
+<text text-anchor="middle" x="659.38" y="-594.92" font-family="Courier,monospace" font-size="11.00">MarkupCalculatorCoreLibrary</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Libraries\\TranslateLibraries -->
 <g id="node19" class="node">
 <title>\\Devolegkosarev\\Parsing\\Libraries\\TranslateLibraries</title>
-<polygon fill="none" stroke="black" points="728.12,-644 590.62,-644 590.62,-608 728.12,-608 728.12,-644"/>
-<text text-anchor="middle" x="659.38" y="-621.92" font-family="Courier,monospace" font-size="11.00">TranslateLibraries</text>
+<polygon fill="none" stroke="black" points="728.12,-563 590.62,-563 590.62,-527 728.12,-527 728.12,-563"/>
+<text text-anchor="middle" x="659.38" y="-540.92" font-family="Courier,monospace" font-size="11.00">TranslateLibraries</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataLanguageModel -->
 <g id="node20" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataLanguageModel</title>
-<polygon fill="none" stroke="black" points="728.12,-455 590.62,-455 590.62,-419 728.12,-419 728.12,-455"/>
-<text text-anchor="middle" x="659.38" y="-432.93" font-family="Courier,monospace" font-size="11.00">iDataLanguageModel</text>
+<polygon fill="none" stroke="black" points="728.12,-374 590.62,-374 590.62,-338 728.12,-338 728.12,-374"/>
+<text text-anchor="middle" x="659.38" y="-351.93" font-family="Courier,monospace" font-size="11.00">iDataLanguageModel</text>
 </g>
 <!-- Model -->
 <g id="node37" class="node">
@@ -291,147 +291,147 @@
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataLanguageModel&#45;&gt;Model -->
 <g id="edge15" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataLanguageModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M590.36,-435.96C568.6,-439.25 546.43,-447.12 532,-464 382.35,-639.1 593.81,-1301.07 476,-1499 463.27,-1520.38 439.5,-1535.08 418.79,-1544.46"/>
-<polygon fill="none" stroke="black" points="417.77,-1541.51 409.93,-1548.64 420.51,-1547.96 417.77,-1541.51"/>
+<path fill="none" stroke="black" d="M590.33,-354.93C568.56,-358.22 546.4,-366.09 532,-383 451.52,-477.54 539.29,-1392.19 476,-1499 463.32,-1520.41 439.54,-1535.1 418.82,-1544.48"/>
+<polygon fill="none" stroke="black" points="417.8,-1541.53 409.96,-1548.66 420.53,-1547.98 417.8,-1541.53"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetDescriptionModel -->
 <g id="node21" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetDescriptionModel</title>
-<polygon fill="none" stroke="black" points="758.5,-401 560.25,-401 560.25,-365 758.5,-365 758.5,-401"/>
-<text text-anchor="middle" x="659.38" y="-378.93" font-family="Courier,monospace" font-size="11.00">iDataPresetDescriptionModel</text>
+<polygon fill="none" stroke="black" points="758.5,-320 560.25,-320 560.25,-284 758.5,-284 758.5,-320"/>
+<text text-anchor="middle" x="659.38" y="-297.93" font-family="Courier,monospace" font-size="11.00">iDataPresetDescriptionModel</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetDescriptionModel&#45;&gt;Model -->
 <g id="edge16" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetDescriptionModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M559.94,-390.2C549.28,-394.74 539.57,-401.12 532,-410 453.41,-502.21 537.83,-1394.8 476,-1499 463.3,-1520.4 439.53,-1535.1 418.81,-1544.47"/>
-<polygon fill="none" stroke="black" points="417.79,-1541.53 409.95,-1548.65 420.53,-1547.97 417.79,-1541.53"/>
+<path fill="none" stroke="black" d="M559.91,-309.17C549.25,-313.71 539.55,-320.11 532,-329 447.75,-428.2 542.22,-1386.96 476,-1499 463.34,-1520.42 439.56,-1535.12 418.84,-1544.49"/>
+<polygon fill="none" stroke="black" points="417.82,-1541.54 409.98,-1548.67 420.55,-1547.99 417.82,-1541.54"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetFieldsModel -->
 <g id="node22" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetFieldsModel</title>
-<polygon fill="none" stroke="black" points="741.62,-347 577.12,-347 577.12,-311 741.62,-311 741.62,-347"/>
-<text text-anchor="middle" x="659.38" y="-324.93" font-family="Courier,monospace" font-size="11.00">iDataPresetFieldsModel</text>
+<polygon fill="none" stroke="black" points="741.62,-266 577.12,-266 577.12,-230 741.62,-230 741.62,-266"/>
+<text text-anchor="middle" x="659.38" y="-243.93" font-family="Courier,monospace" font-size="11.00">iDataPresetFieldsModel</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetFieldsModel&#45;&gt;Model -->
 <g id="edge17" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetFieldsModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M576.81,-330.59C559.7,-334.86 543.41,-342.58 532,-356 449.64,-452.87 540.76,-1389.57 476,-1499 463.33,-1520.41 439.55,-1535.11 418.83,-1544.48"/>
-<polygon fill="none" stroke="black" points="417.81,-1541.54 409.97,-1548.66 420.54,-1547.98 417.81,-1541.54"/>
+<path fill="none" stroke="black" d="M576.78,-249.56C559.67,-253.83 543.39,-261.56 532,-275 443.98,-378.86 545.14,-1381.72 476,-1499 463.36,-1520.43 439.59,-1535.13 418.86,-1544.5"/>
+<polygon fill="none" stroke="black" points="417.84,-1541.55 409.99,-1548.67 420.56,-1548 417.84,-1541.55"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetModel -->
 <g id="node23" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetModel</title>
-<polygon fill="none" stroke="black" points="721.38,-293 597.38,-293 597.38,-257 721.38,-257 721.38,-293"/>
-<text text-anchor="middle" x="659.38" y="-270.93" font-family="Courier,monospace" font-size="11.00">iDataPresetModel</text>
+<polygon fill="none" stroke="black" points="721.38,-212 597.38,-212 597.38,-176 721.38,-176 721.38,-212"/>
+<text text-anchor="middle" x="659.38" y="-189.93" font-family="Courier,monospace" font-size="11.00">iDataPresetModel</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetModel&#45;&gt;Model -->
 <g id="edge18" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M597.2,-273C573.31,-275.62 547.89,-283.27 532,-302 445.87,-403.53 543.68,-1384.34 476,-1499 463.35,-1520.43 439.58,-1535.13 418.85,-1544.49"/>
-<polygon fill="none" stroke="black" points="417.83,-1541.55 409.98,-1548.67 420.56,-1548 417.83,-1541.55"/>
+<path fill="none" stroke="black" d="M597.17,-191.98C573.28,-194.59 547.86,-202.24 532,-221 440.21,-329.52 548.07,-1376.49 476,-1499 463.38,-1520.45 439.61,-1535.15 418.87,-1544.51"/>
+<polygon fill="none" stroke="black" points="417.85,-1541.56 410,-1548.68 420.58,-1548.01 417.85,-1541.56"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetStatesModel -->
 <g id="node24" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetStatesModel</title>
-<polygon fill="none" stroke="black" points="741.62,-239 577.12,-239 577.12,-203 741.62,-203 741.62,-239"/>
-<text text-anchor="middle" x="659.38" y="-216.93" font-family="Courier,monospace" font-size="11.00">iDataPresetStatesModel</text>
+<polygon fill="none" stroke="black" points="741.62,-158 577.12,-158 577.12,-122 741.62,-122 741.62,-158"/>
+<text text-anchor="middle" x="659.38" y="-135.93" font-family="Courier,monospace" font-size="11.00">iDataPresetStatesModel</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataPresetStatesModel&#45;&gt;Model -->
 <g id="edge19" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataPresetStatesModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M576.77,-222.55C559.66,-226.82 543.38,-234.56 532,-248 442.1,-354.19 546.61,-1379.11 476,-1499 463.37,-1520.44 439.6,-1535.14 418.87,-1544.5"/>
-<polygon fill="none" stroke="black" points="417.84,-1541.56 410,-1548.68 420.57,-1548.01 417.84,-1541.56"/>
+<path fill="none" stroke="black" d="M576.75,-141.53C559.64,-145.8 543.36,-153.54 532,-167 436.44,-280.19 551,-1371.26 476,-1499 463.4,-1520.46 439.63,-1535.16 418.89,-1544.52"/>
+<polygon fill="none" stroke="black" points="417.86,-1541.57 410.01,-1548.69 420.59,-1548.02 417.86,-1541.57"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataSyncModel -->
 <g id="node25" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataSyncModel</title>
-<polygon fill="none" stroke="black" points="714.62,-563 604.12,-563 604.12,-527 714.62,-527 714.62,-563"/>
-<text text-anchor="middle" x="659.38" y="-540.92" font-family="Courier,monospace" font-size="11.00">iDataSyncModel</text>
+<polygon fill="none" stroke="black" points="714.62,-482 604.12,-482 604.12,-446 714.62,-446 714.62,-482"/>
+<text text-anchor="middle" x="659.38" y="-459.93" font-family="Courier,monospace" font-size="11.00">iDataSyncModel</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataSyncModel&#45;&gt;Model -->
 <g id="edge20" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataSyncModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M603.65,-553.3C577.65,-560.22 548.67,-572.87 532,-596 414.43,-759.1 579.51,-1326.64 476,-1499 463.19,-1520.33 439.41,-1535.03 418.73,-1544.42"/>
-<polygon fill="none" stroke="black" points="417.71,-1541.47 409.88,-1548.61 420.45,-1547.91 417.71,-1541.47"/>
+<path fill="none" stroke="black" d="M603.93,-472.18C577.83,-479.07 548.68,-491.73 532,-515 404.38,-693 588.28,-1310.95 476,-1499 463.24,-1520.36 439.47,-1535.06 418.77,-1544.45"/>
+<polygon fill="none" stroke="black" points="417.75,-1541.5 409.92,-1548.63 420.49,-1547.94 417.75,-1541.5"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataVendorModel -->
 <g id="node26" class="node">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataVendorModel</title>
-<polygon fill="none" stroke="black" points="721.38,-509 597.38,-509 597.38,-473 721.38,-473 721.38,-509"/>
-<text text-anchor="middle" x="659.38" y="-486.93" font-family="Courier,monospace" font-size="11.00">iDataVendorModel</text>
+<polygon fill="none" stroke="black" points="721.38,-428 597.38,-428 597.38,-392 721.38,-392 721.38,-428"/>
+<text text-anchor="middle" x="659.38" y="-405.93" font-family="Courier,monospace" font-size="11.00">iDataVendorModel</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Models\\iDataVendorModel&#45;&gt;Model -->
 <g id="edge21" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Models\\iDataVendorModel&#45;&gt;Model</title>
-<path fill="none" stroke="black" d="M596.97,-489.12C573.19,-491.78 547.92,-499.43 532,-518 389.89,-683.78 587.96,-1311.53 476,-1499 463.24,-1520.36 439.47,-1535.06 418.77,-1544.44"/>
-<polygon fill="none" stroke="black" points="417.75,-1541.5 409.92,-1548.63 420.49,-1547.94 417.75,-1541.5"/>
+<path fill="none" stroke="black" d="M596.93,-408.08C573.14,-410.74 547.88,-418.4 532,-437 455.29,-526.88 536.37,-1397.42 476,-1499 463.29,-1520.39 439.51,-1535.09 418.8,-1544.47"/>
+<polygon fill="none" stroke="black" points="417.78,-1541.52 409.94,-1548.65 420.52,-1547.96 417.78,-1541.52"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Services\\AliasGeneratorService -->
 <g id="node27" class="node">
 <title>\\Devolegkosarev\\Parsing\\Services\\AliasGeneratorService</title>
-<polygon fill="none" stroke="black" points="457.88,-814 300.12,-814 300.12,-778 457.88,-778 457.88,-814"/>
-<text text-anchor="middle" x="379" y="-791.92" font-family="Courier,monospace" font-size="11.00">AliasGeneratorService</text>
+<polygon fill="none" stroke="black" points="457.88,-1003 300.12,-1003 300.12,-967 457.88,-967 457.88,-1003"/>
+<text text-anchor="middle" x="379" y="-980.92" font-family="Courier,monospace" font-size="11.00">AliasGeneratorService</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Services\\DiffCSVService -->
 <g id="node28" class="node">
 <title>\\Devolegkosarev\\Parsing\\Services\\DiffCSVService</title>
-<polygon fill="none" stroke="black" points="434.25,-760 323.75,-760 323.75,-724 434.25,-724 434.25,-760"/>
-<text text-anchor="middle" x="379" y="-737.92" font-family="Courier,monospace" font-size="11.00">DiffCSVService</text>
+<polygon fill="none" stroke="black" points="434.25,-949 323.75,-949 323.75,-913 434.25,-913 434.25,-949"/>
+<text text-anchor="middle" x="379" y="-926.92" font-family="Courier,monospace" font-size="11.00">DiffCSVService</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Services\\DirectoryService -->
 <g id="node29" class="node">
 <title>\\Devolegkosarev\\Parsing\\Services\\DirectoryService</title>
-<polygon fill="none" stroke="black" points="441,-706 317,-706 317,-670 441,-670 441,-706"/>
-<text text-anchor="middle" x="379" y="-683.92" font-family="Courier,monospace" font-size="11.00">DirectoryService</text>
+<polygon fill="none" stroke="black" points="441,-895 317,-895 317,-859 441,-859 441,-895"/>
+<text text-anchor="middle" x="379" y="-872.92" font-family="Courier,monospace" font-size="11.00">DirectoryService</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Services\\iDataPresetInsertService -->
 <g id="node30" class="node">
 <title>\\Devolegkosarev\\Parsing\\Services\\iDataPresetInsertService</title>
-<polygon fill="none" stroke="black" points="468,-652 290,-652 290,-616 468,-616 468,-652"/>
-<text text-anchor="middle" x="379" y="-629.92" font-family="Courier,monospace" font-size="11.00">iDataPresetInsertService</text>
+<polygon fill="none" stroke="black" points="468,-841 290,-841 290,-805 468,-805 468,-841"/>
+<text text-anchor="middle" x="379" y="-818.92" font-family="Courier,monospace" font-size="11.00">iDataPresetInsertService</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Services\\TranslationService -->
 <g id="node31" class="node">
 <title>\\Devolegkosarev\\Parsing\\Services\\TranslationService</title>
-<polygon fill="none" stroke="black" points="447.75,-598 310.25,-598 310.25,-562 447.75,-562 447.75,-598"/>
-<text text-anchor="middle" x="379" y="-575.92" font-family="Courier,monospace" font-size="11.00">TranslationService</text>
+<polygon fill="none" stroke="black" points="447.75,-787 310.25,-787 310.25,-751 447.75,-751 447.75,-787"/>
+<text text-anchor="middle" x="379" y="-764.92" font-family="Courier,monospace" font-size="11.00">TranslationService</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\Services\\TranslationService&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\TranslatorInterface -->
 <g id="edge22" class="edge">
 <title>\\Devolegkosarev\\Parsing\\Services\\TranslationService&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\TranslatorInterface</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M309.9,-589.92C299.59,-593.89 289.81,-599.39 282,-607 221.69,-665.77 286.31,-729.23 226,-788 221.55,-792.33 216.46,-795.98 211.01,-799.06"/>
-<polygon fill="none" stroke="black" points="209.96,-796.16 202.51,-803.7 213.03,-802.45 209.96,-796.16"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M309.9,-778.92C299.59,-782.89 289.81,-788.39 282,-796 221.69,-854.77 286.31,-918.23 226,-977 221.55,-981.33 216.46,-984.98 211.01,-988.06"/>
+<polygon fill="none" stroke="black" points="209.96,-985.16 202.51,-992.7 213.03,-991.45 209.96,-985.16"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractFeaturesHandler&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\FeaturesHandlerInterface -->
 <g id="edge1" class="edge">
 <title>\\Devolegkosarev\\Parsing\\AbstractFeaturesHandler&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\FeaturesHandlerInterface</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M293,-869C272.46,-869 250.34,-869 229.21,-869"/>
-<polygon fill="none" stroke="black" points="229.27,-865.5 219.27,-869 229.27,-872.5 229.27,-865.5"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M293,-1129.75C272.37,-1127.5 250.13,-1125.08 228.92,-1122.77"/>
+<polygon fill="none" stroke="black" points="229.59,-1119.21 219.27,-1121.61 228.83,-1126.17 229.59,-1119.21"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractOptionsHandler&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\OptionsHandlerInterface -->
 <g id="edge2" class="edge">
 <title>\\Devolegkosarev\\Parsing\\AbstractOptionsHandler&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\OptionsHandlerInterface</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M296.45,-923C273.91,-923 249.23,-923 225.94,-923"/>
-<polygon fill="none" stroke="black" points="226,-919.5 216,-923 226,-926.5 226,-919.5"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M296.45,-1202.24C273.68,-1197.29 248.74,-1191.85 225.25,-1186.74"/>
+<polygon fill="none" stroke="black" points="226.09,-1183.12 215.57,-1184.42 224.6,-1189.96 226.09,-1183.12"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractTranslater&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\TranslaterInterface -->
 <g id="edge3" class="edge">
 <title>\\Devolegkosarev\\Parsing\\AbstractTranslater&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\TranslaterInterface</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M335.65,-1066.56C293.21,-1048.07 227.79,-1019.59 182.17,-999.72"/>
-<polygon fill="none" stroke="black" points="183.74,-996.15 173.18,-995.37 180.95,-1002.57 183.74,-996.15"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M309.9,-1058C279.63,-1058 243.73,-1058 212,-1058"/>
+<polygon fill="none" stroke="black" points="212.41,-1054.5 202.41,-1058 212.41,-1061.5 212.41,-1054.5"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractVendors -->
 <g id="node35" class="node">
 <title>\\Devolegkosarev\\Parsing\\AbstractVendors</title>
-<polygon fill="none" stroke="black" points="437.62,-544 320.38,-544 320.38,-508 437.62,-508 437.62,-544"/>
-<text text-anchor="start" x="345.25" y="-528.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
-<text text-anchor="start" x="328.38" y="-515.55" font-family="Courier,monospace" font-size="11.00">AbstractVendors</text>
+<polygon fill="none" stroke="black" points="437.62,-733 320.38,-733 320.38,-697 437.62,-697 437.62,-733"/>
+<text text-anchor="start" x="345.25" y="-717.3" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
+<text text-anchor="start" x="328.38" y="-704.55" font-family="Courier,monospace" font-size="11.00">AbstractVendors</text>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\AbstractVendors&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\VendorsInterface -->
 <g id="edge4" class="edge">
 <title>\\Devolegkosarev\\Parsing\\AbstractVendors&#45;&gt;\\Devolegkosarev\\Parsing\\Interfaces\\VendorsInterface</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M319.89,-533.63C306.68,-537.18 293.23,-542.38 282,-550 212.49,-597.12 163.74,-687.16 142.28,-732.88"/>
-<polygon fill="none" stroke="black" points="138.76,-731.16 137.77,-741.71 145.12,-734.08 138.76,-731.16"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M319.89,-722.63C306.68,-726.18 293.23,-731.38 282,-739 212.49,-786.12 163.74,-876.16 142.28,-921.88"/>
+<polygon fill="none" stroke="black" points="138.76,-920.16 137.77,-930.71 145.12,-923.08 138.76,-920.16"/>
 </g>
 <!-- \\Devolegkosarev\\Parsing\\CsvGenerator -->
 <g id="node36" class="node">
