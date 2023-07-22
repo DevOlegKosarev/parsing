@@ -7,163 +7,23 @@
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @package    CodeIgniter 4
- * @subpackage DevOlegKosarev\Parsing\Libraries
+ * @package    Devolegkosarev\Parsing\Libraries
  * @author     Oleg Kosarev <dev.oleg.kosarev@outlook.com>
  * @version    0.0.1
- * @since      Version 0.0.1
+ * @since      0.0.1
  */
 
-namespace DevOlegKosarev\Parsing\Libraries;
+namespace Devolegkosarev\Parsing\Libraries;
 
 use Exception;
 
 /**
- * Class VendorsLibraries
- * Provides methods for working with vendors
- *
- * A vendor is a third-party service or provider that can be integrated with the application
- * For example, a vendor can be a service that provides a list of products for sale
- * Each vendor has a corresponding file and class in the Controllers/Vendors directory
- * Each vendor also has a configuration file and class in the Config/Vendors directory
- * The configuration file contains the settings and credentials for the vendor
- * The vendor class contains the methods for interacting with the vendor's API or SDK
- *
- * This class provides methods for checking the existence and validity of vendor files and classes
- * It also provides methods for generating aliases and prices for vendors
+ * A library class for formatting features and values.
  */
-class VendorsLibraries
+class FormatFeaturesValueLibraries
 {
-    // /**
-    //  * Check if a vendor file and class exist
-    //  *
-    //  * @param string $vendor The name of the vendor
-    //  * @return bool True if both exist, false otherwise
-    //  * @throws Exception If the file or class does not exist
-    //  */
-    // public function checkVendor(string $vendor): bool
-    // {
-    //     // Get the path to the vendor file
-    //     $vendorFile = APPPATH . 'Controllers' . DIRECTORY_SEPARATOR . 'Vendors' . DIRECTORY_SEPARATOR . $vendor . '.php';
-
-    //     // Check if the file exists
-    //     if (!file_exists($vendorFile)) {
-    //         // File not found
-    //         throw new Exception('Vendor file not found: ' . $vendorFile, 500);
-    //     }
-
-    //     // Include the file to make the class available for checking
-    //     include_once($vendorFile);
-
-    //     // Check if the class exists
-    //     $vendorClass = 'App\\Controllers\\Vendors\\' . $vendor;
-    //     if (!class_exists($vendorClass)) {
-    //         // Class does not exist
-    //         throw new Exception('Class does not exist: ' . $vendorFile, 500);
-    //     }
-
-    //     // Return true if both exist
-    //     return true;
-    // }
-
-    // /**
-    //  * Check if a vendor configuration file and class exist
-    //  *
-    //  * @param string $vendor The name of the vendor
-    //  * @return bool True if both exist, false otherwise
-    //  */
-    // public function checkVendorConfig(string $vendor): bool
-    // {
-    //     // Get the path to the vendor configuration file
-    //     $path = APPPATH . 'Config' . DIRECTORY_SEPARATOR . 'Vendors' . DIRECTORY_SEPARATOR . $vendor . '.php';
-
-    //     // Try to require the configuration file
-    //     try {
-    //         require_once($path);
-    //     } catch (\Throwable $e) {
-    //         // Handle the error if the file cannot be loaded
-    //         return false;
-    //     }
-
-    //     // Check if the class exists
-    //     $configClass = 'App\\Config\\Vendors\\' . $vendor;
-    //     if (!class_exists($configClass)) {
-    //         // Return false if it does not exist
-    //         return false;
-    //     }
-
-    //     // Return true if both exist
-    //     return true;
-    // }
-
-    /**
-     * Generate an alias from a category name
-     *
-     * @param string $category The category name
-     * @return string The alias in lowercase with dashes instead of spaces or other characters
-     */
-    public function generateAlias($category)
+    public function __construct()
     {
-        $alias = strtolower($category);
-        $alias = preg_replace('/[^a-z0-9]/', '-', $alias);
-        $alias = preg_replace('/-+/', '-', $alias);
-        return $alias;
-    }
-
-    /**
-     * Calculate the price with margin and VAT
-     *
-     * @param float $price The original price
-     * @param int $margin The margin percentage (default 0)
-     * @param int $vat The VAT percentage (default 21)
-     * @return int The rounded price with margin and VAT applied
-     */
-    public function price(float $price = 0.00, int $margin = 0, int $vat = 21): int
-    {
-        if ((int) $price <= 0) {
-            return $price;
-        }
-
-        if ($margin > 0) {
-            $price = $price + ($price * $margin / 100);
-        }
-
-        if ($vat > 0) {
-            $price = $price + ($price * $vat / 100);
-        }
-
-        return round($price);
-    }
-
-    /**
-     * Translate a text using Google Translate API
-     *
-     * @param string $text The text to translate
-     * @param string $sourceLang The source language code (default 'en')
-     * @param string $targetLang The target language code
-     * @return string|null The translated text or null if the parameters are invalid
-     */
-    public function google_translate(string $text = null, string $sourceLang = 'en', string $targetLang = null)
-    {
-        // Check if the text and target language are provided
-        if ($text == null or $targetLang == null) {
-            return null;
-        }
-
-        // Encode the text for the URL
-        $text = urlencode($text);
-
-        // Build the URL for the Google Translate API
-        $url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=$sourceLang&tl=$targetLang&dt=t&q=$text";
-
-        // Get the JSON response from the API
-        $response = file_get_contents($url);
-
-        // Decode the JSON and extract the translated text
-        $translatedText = json_decode($response)[0][0][0];
-
-        // Return the translated text
-        return $translatedText;
     }
 
     /**
@@ -179,6 +39,7 @@ class VendorsLibraries
         if (empty($size)) {
             throw new Exception("The size string cannot be empty.");
         }
+
         if (!preg_match("/[a-zA-Z]/", $size)) {
             throw new Exception("The size string must contain at least one letter.");
         }
@@ -187,75 +48,52 @@ class VendorsLibraries
         $pos = strcspn($size, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 
         // Split the string into digits and letters
-        $digits = substr($size, 0, $pos);
+        $digits = rtrim(substr($size, 0, $pos));
         $letters = substr($size, $pos);
-
-        // Remove everything after kb, mb, gb or tb
-        $units = ["kb", "mb", "gb", "tb"];
-        foreach ($units as $unit) {
-            if (stripos($letters, $unit) !== false) {
-                $letters = substr($letters, 0, stripos($letters, $unit) + 2);
-                break;
-            }
-        }
 
         // Return the formatted string with a space and uppercase letters
         return trim(strtoupper($digits . " " . $letters));
     }
 
-
-    /**
-     * Undocumented function
-     *
-     * @param [type] $dir
-     * @return mixed
-     */
-    public function deleteDirectory($dir)
+    function format_os($element): string
     {
-        if (!file_exists($dir)) {
-            return true;
+        // Define an associative array of OS editions and their full names
+        $edition_array = array(
+            "sta" => "Starter",
+            "home" => "Home",
+            "hb" => "Home Basic",
+            "hp" => "Home Premium",
+            "pro" => "Professional",
+            "ent" => "Enterprise",
+            "ult" => "Ultimate",
+            "edu" => "Education",
+            "pfw" => "Pro for Workstations",
+            "rt" => "RT",
+            "chn" => "China",
+            "mce" => "Media Center Edition",
+            "tpe" => "Tablet PC Edition"
+        );
+
+        // Convert the element to lowercase and remove any trailing spaces
+        $lower_element = trim(strtolower($element));
+
+        // Remove 'installed' from the element if it exists
+        $lower_element = str_replace(" installed", "", $lower_element);
+
+        // Remove 'win' from the element if it exists
+        $lower_element = preg_replace("/^win\s*/", "", $lower_element);
+
+        // Split the element into parts by space
+        $parts = explode(" ", $lower_element);
+
+        // Check if the second part is in the edition array and replace it with the full name
+        if (isset($parts[1]) && isset($edition_array[$parts[1]])) {
+            $parts[1] = $edition_array[$parts[1]];
         }
 
-        if (!is_dir($dir)) {
-            return unlink($dir);
-        }
-
-        foreach (scandir($dir) as $item) {
-            if ($item == '.' || $item == '..') {
-                continue;
-            }
-
-            if (!$this->deleteDirectory($dir . DIRECTORY_SEPARATOR . $item)) {
-                return false;
-            }
-        }
-
-        return rmdir($dir);
+        // Return the element with 'Windows' added at the beginning
+        return "Windows " . implode(" ", $parts);
     }
-
-    /**
-     * Summary of copyDirectory
-     * @param mixed $src
-     * @param mixed $dst
-     * @return void
-     */
-    public function copyDirectory($src, $dst)
-    {
-        $dir = opendir($src);
-        mkdir($dst);
-        while (false !== ($file = readdir($dir))) {
-            if (($file != '.') && ($file != '..')) {
-                if (is_dir($src . '/' . $file)) {
-                    $this->copyDirectory($src . '/' . $file, $dst . '/' . $file);
-                } else {
-                    copy($src . '/' . $file, $dst . '/' . $file);
-                }
-            }
-        }
-        closedir($dir);
-        return;
-    }
-
 
 
     /**
@@ -526,5 +364,6 @@ class VendorsLibraries
         // Return the original code if not found
         return $code;
     }
+
 
 }

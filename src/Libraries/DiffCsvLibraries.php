@@ -7,11 +7,10 @@
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @package    CodeIgniter 4
- * @subpackage DevOlegKosarev\Parsing\Libraries
+ * @package    Devolegkosarev\Parsing\Libraries
  * @author     Oleg Kosarev <dev.oleg.kosarev@outlook.com>
  * @version    0.0.1
- * @since      Version 0.0.1
+ * @since      0.0.1
  */
 
 namespace Devolegkosarev\Parsing\Libraries;

@@ -1,17 +1,30 @@
 <?php
+/**
+ * This file is part of CodeIgniter 4 framework.
+ *
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
+ *
+ * @package    Devolegkosarev\Parsing\Controllers
+ * @version    0.0.1
+ * @since      0.0.1
+ */
+
 // Declare the namespace for this controller
-namespace DevOlegKosarev\Parsing\Controllers;
+namespace Devolegkosarev\Parsing\Controllers;
 
 // Import the classes that are used in this file
-use stdClass;
 use ErrorException;
 use LogicException;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 
 /**
- * Class VendorsController
+ * 
  * Handles the parsing and syncing of products from different vendors
+ * 
  */
 class VendorsController extends BaseController
 {
@@ -23,9 +36,9 @@ class VendorsController extends BaseController
      * Method parsing_products
      * Gets all the products from a given vendor and returns them as JSON
      * @param string|null $vendor The name of the vendor
-     * @return ResponseInterface The response object with the status code and the JSON data
+    //  * @return ResponseInterface The response object with the status code and the JSON data
      */
-    public function parsing_products(?string $vendor = null): ResponseInterface
+    public function parsing_products(?string $vendor = null)
     {
         try {
             // Check if the vendor name is valid and create the vendor controller object
@@ -52,8 +65,19 @@ class VendorsController extends BaseController
             // Check if the vendor name is valid and create the vendor controller object
             $vendorController = $this->checkVendors($vendor);
             // Sync all the products from the vendor controller
-            $products = $vendorController->syncAllProducts();
+            $products = $vendorController->syncAllProducts($vendor);
+            $loadVendorConfig = $this->loadVendorConfig($vendor);
+            $vendorName = $vendor;
 
+            if (property_exists($loadVendorConfig, "vendorName") == true) {
+                $vendorName = $loadVendorConfig->vendorName;
+            }
+
+            var_dump($products);
+            $data = [
+                "vendorName" => $vendorName,
+                "products" => $products
+            ];
             return $products;
         } catch (\Throwable $th) {
             // Throw an error exception with the exception message
@@ -120,7 +144,6 @@ class VendorsController extends BaseController
         return $vendorNamespace;
     }
 
-
     /**
      * Method loadVendorConfig
      * Loads and returns the vendor config object from the vendor name using constants and string interpolation
@@ -159,6 +182,7 @@ class VendorsController extends BaseController
 
         return $vendorConfig;
     }
+
     /**
      * Method instantiateVendorController
      * Instantiates and returns the vendor controller object from the vendor class name and config

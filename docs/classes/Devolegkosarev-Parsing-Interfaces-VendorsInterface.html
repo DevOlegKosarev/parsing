@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>parsing iData</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">parsing iData</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/devolegkosarev.html" class="">Devolegkosarev</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/devolegkosarev-parsing.html" class="">Parsing</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Devolegkosarev.html" class="">Devolegkosarev</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Devolegkosarev-Parsing.html" class="">Parsing</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="graphs/classes.html">Class Diagram</a></h3>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/devolegkosarev.html">Devolegkosarev</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/devolegkosarev-parsing.html">Parsing</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/devolegkosarev-parsing-interfaces.html">Interfaces</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -interface">
+        <h2 class="phpdocumentor-content__title">
+    VendorsInterface
+                <div class="phpdocumentor-element__package">
+            in
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li><a href="packages/Devolegkosarev.html">Devolegkosarev</a></li>
+                                    <li><a href="packages/Devolegkosarev-Parsing.html">Parsing</a></li>
+                                    <li><a href="packages/Devolegkosarev-Parsing-Interfaces.html">Interfaces</a></li>
+                            </ul>
+        </div>
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Interfaces/VendorsInterface.php"><a href="files/src-interfaces-vendorsinterface.html"><abbr title="src/Interfaces/VendorsInterface.php">VendorsInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">This interface defines the contract for interacting with vendors and their products.</p>
+
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_getAllProducts">getAllProducts()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Get all products.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_setFeatures">setFeatures()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Sets the features of a product based on its dimensions and name.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_setOptions">setOptions()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Sets the options for a given category name.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_syncAllProducts">syncAllProducts()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Sync all products.</dd>
+
+        </dl>
+
+
+
+        
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAllProducts">
+        getAllProducts()
+        <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_getAllProducts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Interfaces/VendorsInterface.php"><a href="files/src-interfaces-vendorsinterface.html"><abbr title="src/Interfaces/VendorsInterface.php">VendorsInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get all products.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getAllProducts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>Retrieves all products from the vendor specified in the features array.</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_setFeatures"><abbr title="\Devolegkosarev\Parsing\Interfaces\VendorsInterface::setFeatures()">VendorsInterface::setFeatures()</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"><p>See the setFeatures function for more details on how to set and validate the features.</p>
+</section>
+
+                                    </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_setOptions"><abbr title="\Devolegkosarev\Parsing\Interfaces\VendorsInterface::setOptions()">VendorsInterface::setOptions()</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"><p>See the setOptions function for more details on how to set and validate the options.</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The array of products. Each product is an associative array with the following keys and values:</p>
+<ul>
+<li>product_code: string, the unique identifier of the product, e.g. &quot;LAP-001&quot;</li>
+<li>product_name: string, the name of the product, e.g. &quot;Lenovo IdeaPad 3 Laptop&quot;</li>
+<li>category: array, the array of categories that define the product group, e.g. [&quot;Computers&quot;, &quot;Laptops&quot;, &quot;Lenovo&quot;]</li>
+<li>price: float, the price of the product in the currency specified in the options array, e.g. 500 EUR</li>
+<li>list_price: float, the price of the product before discount or promotion, e.g. 550 EUR</li>
+<li>quantity: int, the number of units of the product available in stock, e.g. 10</li>
+<li>features: array, the array of key-value pairs that describe the product features, e.g. [&quot;CPU&quot; =&gt; &quot;Intel Core i5&quot;, &quot;RAM&quot; =&gt; &quot;8 GB&quot;, &quot;Drive&quot; =&gt; &quot;256 GB SSD&quot;].</li>
+<li>description: string, the detailed description of the product, its benefits and features, e.g. &quot;Lenovo IdeaPad 3 Laptop is a reliable and powerful assistant for work and entertainment.&quot;</li>
+<li>vendor: string, the name of the manufacturer or supplier of the product, e.g. &quot;Lenovo&quot;</li>
+<li>language: string, the code of the language in which the product description is written by default, e.g. &quot;en&quot;. This language will be used as the source language for translation.</li>
+<li>status: string, the one-letter status of the product: A or H. A means that the product is active and available for purchase. H means that the product is passive and not available for purchase, e.g. &quot;A&quot;</li>
+<li>options: array, the array of strings that contain the names of additional services or products that can be ordered together with the product, e.g. [&quot;Keyboard Stickers&quot;, &quot;Install Programs&quot;, &quot;Transfer Data&quot;]</li>
+</ul>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setFeatures">
+        setFeatures()
+        <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_setFeatures" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Interfaces/VendorsInterface.php"><a href="files/src-interfaces-vendorsinterface.html"><abbr title="src/Interfaces/VendorsInterface.php">VendorsInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">111</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Sets the features of a product based on its dimensions and name.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setFeatures</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$DimensionsObject</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ProductName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>This function takes an array of dimensions and a product name as arguments and returns an object with the product features.
+These are the names of the product features keys and the values should be returned in this format:</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$DimensionsObject</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>An array with dimensions such as length, width, height and weight</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$ProductName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The name of the product</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">example</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>\Devolegkosarev\Example\Controllers\ExampleController.php description
+<code class="prettyprint">
+array(
+array($keyFeatures1 =&gt; $valueFeatures1),
+array($keyFeatures2 =&gt; $valueFeatures2),
+array($keyFeatures3 =&gt; $valueFeatures3)
+)
+</code></p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The array of Features. Each features is an associative array with the following keys and values:
+Additional Info: Additional information about the product, such as Brand New Battery, Chip/Crack, Knox warranty void, etc. This can be a string or an array of strings separated by '///'.
+Appearance: The appearance of the product, such as Brand New, Grade A-C, Incomplete, Motherboard only, Swap, etc. This should be a string.
+Band Type: The type of the band for watches or bracelets, such as leather, metal, silicone, etc. This should be a string.
+Battery cycles: The number of charge-discharge cycles of the device battery. This should be an integer or string.
+Battery status: The status of the device battery, such as High Cycle Count, Excellent, Untested, etc. This should be a string.
+Boxed: Aftermarket Box, Charger included, Damaged Box, Empty Kit, Full Kit, etc. This should be a string. -
+Brand: The brand of the product. This should be a string.
+Capacity: The amount of memory or disk of the device, such as 16 GB, 256 GB, etc. This should be a string with a unit.
+Cloud Lock: The presence of a cloud service lock on the device, such as iCloud, Google Account, etc. This should be a boolean value ('Yes' or 'No').
+COA: The presence of a certificate of authenticity for the product. This should be a String value (&quot;Windows 10 Proffesional&quot;). -
+Color: The color of the case or screen of the device. This should be a string.
+Color Band: The color of the strap for watches or bracelets. This should be a string.
+Color Case: The color of the case or cover of the device. This should be a string.
+CPU: The processor of the computer or laptop. This should be a string with the model name and speed.
+Customized: The presence of customization of the product, such as engraving, stickers, modifications, etc. This should be a string value ('Branding'). -
+Drive: The type of disk of the device, such as 1 TB HDD, 128 GB SSD, etc. This should be a string with the model name and capacity. -
+Drive Type: The type of drive of the device, such as SSD, HDD, etc. This should be a string.
+Form factor: The form factor of the computer or laptop, such as desktop, all-in-one, ultrabook, DT, 1-4U rack, USFF, USDT etc. This should be a string. -
+Functionality: The functionality of the product Incomplete Working, Power tested, Visually tested, Working*, Working. This should be an string.
+GPU: The graphics processor of the computer or laptop. This should be a string with the model name and memory size.
+Keyboard: The type of keyboard of the device in the form of ISO 3166-1 alpha-3 country code, such as RUS, USA, etc. This should be a string with three uppercase letters.
+LCD Graphics array: The resolution of the device screen &quot;2.2K (2240x1400)&quot; or &quot;2160x1440&quot; or &quot;XGA (1024x768)&quot;. This should be a string with two numbers separated by 'x'. -
+Network Lock: The presence of a network operator lock on the device, such as AT&amp;T, Verizon, etc. This should be a boolean value ('Yes' or 'No').
+PC Additional Fault: The presence of additional faults in the computer or laptop. This should be a string value ('Cam Issue' or 'Faulty Fingerprint Scanner' or 'Minor LCD Fault (Discoloration/Dust)').
+PC Fault Descriptions: The description of the main faults in the computer or laptop. This can be a string or an array of strings separated by '///'.
+Quality: The quality of the product 'Original'.
+RAM: The amount of RAM of the device, typically measured in gigabytes (GB) or megabytes (MB). For example, it can be represented as &quot;20GB&quot; or &quot;2GB&quot; or &quot;40GB&quot;.
+Stand: The presence of a stand for the computer or laptop should be represented as a string value. It can be one of the following options: 'Missing', 'Table stand', 'Wall mount', or any other appropriate description based on the available options.
+LCD Size: This option defines the diagonal length of the display in inches, such as 14 or 15.6. This should be a number.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setOptions">
+        setOptions()
+        <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_setOptions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Interfaces/VendorsInterface.php"><a href="files/src-interfaces-vendorsinterface.html"><abbr title="src/Interfaces/VendorsInterface.php">VendorsInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">120</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Sets the options for a given category name.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setOptions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$categoryName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$categoryName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The name of the category to set the options for.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\InvalidArgumentException">InvalidArgumentException</abbr></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>If the category name is not valid.</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The options for the category name.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_syncAllProducts">
+        syncAllProducts()
+        <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#method_syncAllProducts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Interfaces/VendorsInterface.php"><a href="files/src-interfaces-vendorsinterface.html"><abbr title="src/Interfaces/VendorsInterface.php">VendorsInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">60</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Sync all products.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">syncAllProducts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>Synchronizes all products with the vendor's database.</p>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>The result of the sync operation. It is an associative array with the following structure:</p>
+<ul>
+<li>$categoryName: array, defines the fields for each category.</li>
+<li>'iData': int, the value for the iData field.</li>
+<li>$vendorName: int, the value for the specific vendor field.</li>
+</ul>
+</section>
+
+    
+</article>
+            </section>
+
+        
+    <script type="text/javascript">
+        function loadExternalCodeSnippets(line) {
+            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
+                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+                var language = 'php';
+
+                var code = document.createElement('code');
+                code.className = 'language-' + language;
+
+                pre.textContent = '';
+
+                pre.setAttribute('data-line', line)
+                code.textContent = 'Loading…';
+
+                pre.appendChild(code);
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open('GET', src, true);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+
+                            Prism.highlightElement(code);
+                        }
+                        else if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                        }
+                        else {
+                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            });
+        }
+
+        var modals = document.querySelectorAll("[data-modal]");
+
+        modals.forEach(function (trigger) {
+            trigger.addEventListener("click", function (event) {
+                //event.preventDefault();
+                const modal = document.getElementById(trigger.dataset.modal);
+                modal.classList.add("phpdocumentor-modal__open");
+                loadExternalCodeSnippets(trigger.dataset.line)
+                const exits = modal.querySelectorAll("[data-exit-button]");
+                exits.forEach(function (exit) {
+                    exit.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        modal.classList.remove("phpdocumentor-modal__open");
+                    });
+                });
+            });
+        });
+    </script>
+
+    </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="classes/Devolegkosarev-Parsing-Interfaces-VendorsInterface.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>
