@@ -36,7 +36,7 @@ class VendorsController extends BaseController
      * Method parsing_products
      * Gets all the products from a given vendor and returns them as JSON
      * @param string|null $vendor The name of the vendor
-    //  * @return ResponseInterface The response object with the status code and the JSON data
+     * @return ResponseInterface The response object with the status code and the JSON data
      */
     public function parsing_products(?string $vendor = null)
     {
@@ -161,7 +161,6 @@ class VendorsController extends BaseController
         if (!class_exists($vendorConfigClass)) {
             // Throw a custom exception if the vendor config does not exist 
             throw new LogicException('Vendor Config does not exist');
-<<<<<<< HEAD
         }
 
         // Instantiate the vendor config object from the class name
@@ -179,30 +178,9 @@ class VendorsController extends BaseController
         // Create the vendor directory if it does not exist
         if (!is_dir($vendorConfig->basePath)) {
             $this->createVendorDirectory($vendorConfig->basePath);
-=======
->>>>>>> 2336d51b70f69dac19220901b4b199f3376a12db
         }
 
-        // Instantiate the vendor config object from the class name
-        try {
-            $vendorConfig = new $vendorConfigClass();
-            // Use instanceof operator to check the type of the object
-            if ($vendorConfig instanceof BaseConfig) {
-                // Set the base path property of the vendor config object using constants and string interpolation
-                $vendorConfig->basePath = WRITEPATH . "CSV" . DIRECTORY_SEPARATOR . $vendor;
-
-                // Create the vendor directory if it does not exist
-                if (!is_dir($vendorConfig->basePath)) {
-                    $this->createVendorDirectory($vendorConfig->basePath);
-                }
-                return $vendorConfig;
-            }
-        } catch (\Throwable $e) {
-            throw new LogicException('Failed to initialize vendor config: Class not found');
-        }
-
-
-
+        return $vendorConfig;
     }
 
     /**
